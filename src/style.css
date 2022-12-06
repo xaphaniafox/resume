@@ -1,0 +1,45 @@
+@font-face {
+  font-family: montserratFont;
+  src: url(Montserrat-Bold.ttf);
+}
+
+body {
+ /* text-align: center; */
+  padding: 0;
+  margin: 0;
+  background-color: #e0fbfc ;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  /* background-image: url(./Layer2.svg); */
+  position: relative;
+  /* text-align: center; */
+}
+.hero-name {
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  color: #3d5a80;
+  font-family: montserratFont;
+  font-size: 3rem;
+}
+span {
+  color: #ee6c4d;
+}
+
+.fade-in-left {
+  animation: fadeInLeft 1s;
+}
+
+@keyframes fadeInLeft {
+  0% { 
+    opacity: 0; 
+    transform: translateX(-20%);
+  }
+  100% { 
+    opacity: 1; 
+    transform: translateX(0)
+  }
+}
