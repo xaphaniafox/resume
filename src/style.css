@@ -43,3 +43,16 @@ span {
     transform: translateX(0)
   }
 }
+
+.hero-cta {
+  margin-top: -20px;
+  margin-bottom: -20px;
+}
+
+.btn {
+  text-decoration: none;
+  color:#3d5a80;
+  font-size: .6em;
+  border: 1px solid #3d5a80;
+  padding: 8px 16px;
+}
