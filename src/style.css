@@ -75,3 +75,12 @@ span {
   font-size: 2rem;
   padding-top: 50px;
 }
+
+.row {
+  margin-bottom: 8rem;
+}
+
+#profile-img {
+  max-width: 100%;
+  height: auto;
+}
