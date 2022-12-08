@@ -13,10 +13,14 @@ body {
 .container {
   width: 100vw;
   height: 100vh;
-  /* background-image: url(./Layer2.svg); */
   position: relative;
   /* text-align: center; */
 }
+
+/* .load-hidden {
+ visibility: hidden;
+} */
+
 .hero-name {
   position: absolute;
   top: 30%;
@@ -55,4 +59,19 @@ span {
   font-size: .6em;
   border: 1px solid #3d5a80;
   padding: 8px 16px;
+}
+
+#about {
+  height: 100%;
+  background-color: #3d5a80;
+  color: #e0fbfc;
+}
+
+.section-title {
+  margin: 0px;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: montserratFont;
+  font-size: 2rem;
+  padding-top: 50px;
 }
