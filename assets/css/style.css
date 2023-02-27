@@ -1061,7 +1061,8 @@ section {
 }
 
 .contact .info .email,
-.contact .info .phone {
+.contact .info .phone,
+.contact .info .address {
   margin-top: 40px;
 }
 
